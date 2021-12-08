@@ -1,0 +1,96 @@
+/* ul, div, section, header, footer, ol, body, */ .container {
+    /* padding: 20px; */
+    background-color: #83a4d4;
+    background: linear-gradient(to left, #b6fbff, #83a4d4);
+    color: #171212;
+    flex-grow: 1;
+
+    h1 {
+        font-size: 48px;
+        font-weight: 300;
+        letter-spacing: 2px;
+        border-bottom: 2px solid #b6fbff;
+      }
+
+      li {
+        display: flex;
+        align-items: center;
+        padding-bottom: 5px;
+      }
+
+      span {
+        padding: 0 5px;
+        white-space: nowrap;
+        overflow: hidden;
+        text-overflow: ellipsis;
+      }
+
+      a {
+        color: inherit;
+      }
+
+      form {
+        padding: 0.6rem 0 1.2rem 0;
+        display: flex;
+        align-items: center;
+
+        }
+
+        button {
+          background: transparent;
+          border: 0.1rem solid #171212;
+          border-radius: 0.3rem;
+          padding: 0.3rem;
+          cursor: pointer;
+          transition: all 0.1s ease-in;
+
+  
+          &:hover {
+              background: #171212;
+              color: #ffffff;
+            }
+  
+        }
+      
+
+      label {
+        padding: left;
+        font-size: 1.5rem;
+        margin: 1rem;
+      }
+
+      input {
+        border: none;
+        border: 0.1rem inset #171212;
+        background-color: transparent;
+        font-size: 1.5rem;
+        /* transition: all 0.1s ease-in; */
+        margin: 0.3rem;
+
+
+        &:hover {
+            border: 0.2rem inset #171212;
+            margin: 0.2rem;
+            border-radius: 0.2rem;
+        }
+      }
+
+      li {
+        display: flex;
+        align-items: center;
+        padding-bottom: 0.3rem;
+      }
+
+      span {
+        padding: 0 0.3rem;
+        white-space: nowrap;
+        overflow: hidden;
+        text-overflow: ellipsis;
+      }
+
+      a {
+        color: inherit;
+      }
+
+
+  }
